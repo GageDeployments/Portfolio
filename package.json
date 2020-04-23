@@ -1,7 +1,11 @@
 {
-  "name": "drews_portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "13.12.0",
+    "npm": "6.14.4"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -35,8 +39,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^2.2.0"
   }
 }
